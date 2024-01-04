@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp3.GradeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Select Grade" Height="399" Width="799">
+    <Grid>
+        <!-- רקע עם התמונה -->
+        <Image Source="https://i.pinimg.com/564x/00/d7/f1/00d7f1e9504f6504101b6be8e1a26bd1.jpg" Stretch="Fill" Visibility="Visible"/>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <!-- כותרת לבחירת הכיתה -->
+            <TextBlock Text="Select Your Grade" FontWeight="Bold" FontSize="16" Foreground="DarkBlue" HorizontalAlignment="Center" Margin="0,27,0,0"/>
+
+            <!-- כפתורים לבחירת הכיתה -->
+            <Button x:Name="t1GradeButton" Content="First Grade" Margin="5" Foreground="DarkBlue" FontSize="14" Background="AliceBlue" Click="GradeButton_Click"/>
+            <Button x:Name="t2dGradeButton" Content="Second Grade" Margin="5" Foreground="DarkBlue" FontSize="14" Background="LightBlue" Click="GradeButton_Click"/>
+            <Button x:Name="t3dGradeButton" Content="Third Grade" Margin="5" Foreground="DarkBlue" FontSize="14" Background="SkyBlue" Click="GradeButton_Click"/>
+            <Button x:Name="t4hGradeButton" Content="Fourth Grade" Margin="5" Foreground="DarkBlue" FontSize="14" Background="RoyalBlue" Click="GradeButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
